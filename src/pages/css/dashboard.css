@@ -1,0 +1,37 @@
+.dashboard-page {
+  margin-top: -610px;
+  margin-right: 500px;
+  padding-top: 20px;
+  padding-left: 20px;
+  height: 610px;
+  margin-left: 320px;
+  width: 900px;
+}
+
+.dashboard-content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -59px;
+}
+
+.card-dashboard {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+  padding: 16px;
+  margin-top: 20px;
+  width: 230px;
+}
+
+.card-header-dashboard {
+  margin-bottom: 16px;
+}
+
+.card-header-dashboard h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-body-dashboard p {
+  font-size: 14px;
+}

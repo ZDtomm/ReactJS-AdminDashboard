@@ -1,0 +1,75 @@
+.menu-pages {
+    margin-top: -600px;
+    margin-left: 320px;
+    margin-right: 20px;
+}
+
+.menu-tables {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 16px;
+}
+
+.menu-tables th,
+.menu-tables td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid;
+    font-size: 16px;
+}
+
+.menu-tables th {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu-tables td {
+    text-align: center;
+}
+
+.menu-tables img {
+    width: 50px;
+    height: 50px;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pageMenu-control {
+    padding: 7px;
+}
+
+.ip-id input {
+    width: 40px;
+}
+
+.ip-img input {
+    width: 100px;
+}
+
+.ip-resto input {
+    width: 140px;
+}
+
+.ip-nm input {
+    width: 100px;
+}
+
+.ip-cnm select {
+    width: 100px;
+}
+
+.ip-prc input {
+    width: 100px;
+}
+
+.ip-stk input {
+    width: 100px;
+}

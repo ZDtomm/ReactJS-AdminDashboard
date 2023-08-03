@@ -1,0 +1,18 @@
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .button-from {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    border-radius: 10px;
+  }
+  
+  .button-from:hover{
+    background-color: rgb(102, 46, 233);
+  }

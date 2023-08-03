@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 400px;
+    height: 500px;
+  }
+  
+  .card-body {
+    padding: 50px;
+  }
+  
+  .profile-image-pic {
+    margin-bottom: 20px;
+  }
+  
+  .btn-color {
+    background-color: #ffc107;
+    color: #fff;
+    border-color: #ffc107;
+  }
+  
+  .btn-color:hover {
+    background-color: #e0a800;
+    border-color: #e0a800;
+  }
+
+ .btn-password {
+  height: 100px;
+ }
+  

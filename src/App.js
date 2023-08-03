@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import Navbar from './component/NavBar/Navbar';
+import RouteJs from './component/Routes/Route';
+import Sidebar from './component/SideBar/Sidebar';
+import { useSelector } from 'react-redux';
 import './App.css';
 
+
 function App() {
+  const isLoggedIn = useSelector((state) => state.isLoggedIn);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-app">
+      {isLoggedIn ? <Navbar/> : null}
+      <div className='container-content'>
+      {isLoggedIn ? <Sidebar/> : null}
+      </div>
+      <RouteJs/>
     </div>
   );
 }
 
 export default App;
+

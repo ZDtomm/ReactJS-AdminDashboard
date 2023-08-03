@@ -1,0 +1,32 @@
+.category-pages{
+    margin-left: 330px;
+    margin-top: -598px; 
+}
+
+.category-content th,
+.category-content td {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.category-content th {
+    background-color: #f2f2f2;
+}
+
+.title-pages{
+    margin-bottom: 20px;
+}
+.button-content {   
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-buttons {
+    outline: none;
+    pointer-events: none;
+    border: none;
+    background: transparent;
+    color: green;
+}
